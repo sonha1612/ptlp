@@ -218,6 +218,17 @@
 
     <script src="js/Jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        window.onload = function() {
+          // Check if the page has already reloaded
+          if (!sessionStorage.getItem('reloaded')) {
+            // Set a flag to indicate the page has reloaded
+            sessionStorage.setItem('reloaded', 'true');
+            // Reload the page
+            location.reload();
+          }
+        };
+      </script> -->
 </body>
 
 </html>
