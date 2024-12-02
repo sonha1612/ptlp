@@ -393,7 +393,7 @@ body {
   text-align: center;
   align-items: center;
   background-color:#dddddd ;
-  
+
 }
 @media only screen and (max-width: 767px){
     h2{
@@ -404,5 +404,13 @@ body {
     }
     .cream{
         position: fixed;
+    }
+    .footer{
+      width: 100%;
+      padding: 10px 0 20px 0;
+      text-align: center;
+      align-items: center;
+      background-color:#dddddd ;
+      
     }
 }   
