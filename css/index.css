@@ -115,5 +115,8 @@ p {
         width: 12%;
         margin-left: 80%;
     }
+    body{
+        overflow: scroll;
+    }
 }
 
