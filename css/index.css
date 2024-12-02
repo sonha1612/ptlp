@@ -110,10 +110,10 @@ p {
 @media only screen and (max-width: 767px){
     .input-group{
         width: 100%;
-
     }
     .submit-button{
         width: 12%;
         margin-left: 80%;
     }
 }
+
