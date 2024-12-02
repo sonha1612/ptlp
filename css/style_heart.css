@@ -1,0 +1,17 @@
+body {
+  background: #000;
+  overflow: hidden;
+  margin-top: 0;
+
+}
+
+html{
+  transform: scale(1.5);
+}
+
+h2{
+  color: #fff;
+  background-color: #fff;
+  font-size: 20px;
+  margin: 0;
+}
