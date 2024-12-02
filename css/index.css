@@ -83,8 +83,13 @@ p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
 }
-.submit-button:hover {
+.submit-button button{
+    border:none;
+    background-color: white;
+}
+.submit-button:hover , .submit-button button:hover {
     background-color: #f9f7fc;
+
 }
 
 .footer {
@@ -113,7 +118,12 @@ p {
         width: 100%;
     }
     .submit-button{
-        align-items: center;    
+        width: 10%;
+        align-self: left;
+        margin: 10px auto;
     }
-}
+    .submit-button button{
+        width: 100%;
+    }
+}   
 
